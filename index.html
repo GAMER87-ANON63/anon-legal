@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ANON — Discord Bot</title>
+
+    <meta name="description" content="Official website for ANON, a Discord bot.">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f1117;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: #5865F2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            font-size: 42px;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+
+        .description {
+            color: #b5bac1;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e2128;
+            border: 1px solid #2b2f38;
+            border-radius: 14px;
+            padding: 30px 20px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: #5865F2;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .card p {
+            color: #b5bac1;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            background: #5865F2;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+
+        .button:hover {
+            background: #4752c4;
+        }
+
+        footer {
+            margin-top: 45px;
+            color: #72767d;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 38px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="logo">
+            A
+        </div>
+
+        <h1>ANON</h1>
+
+        <p class="description">
+            ANON is a Discord bot designed to provide useful features
+            and functionality for Discord servers and their communities.
+        </p>
+
+        <section class="cards">
+
+            <div class="card">
+                <h2>Terms of Service</h2>
+
+                <p>
+                    Read the terms and conditions that apply when using ANON.
+                </p>
+
+                <a class="button" href="terms.html">
+                    View Terms
+                </a>
+            </div>
+
+            <div class="card">
+                <h2>Privacy Policy</h2>
+
+                <p>
+                    Learn how ANON handles information when you use the bot.
+                </p>
+
+                <a class="button" href="privacy.html">
+                    View Privacy Policy
+                </a>
+            </div>
+
+        </section>
+
+        <footer>
+            © 2026 ANON. All rights reserved.
+        </footer>
+
+    </main>
+
+</body>
+</html>
